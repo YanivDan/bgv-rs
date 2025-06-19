@@ -3,7 +3,16 @@ name = "bgv-rust"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "bgv_rust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bgv_cli"
+path = "src/main.rs"
+
 [dependencies]
+clap = { version = "4.0", features = ["derive"] }
 num = "0.4"
 num-bigint = { version = "0.4", features = ["rand"] }
 num-traits = "0.2"
