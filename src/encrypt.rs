@@ -2,7 +2,6 @@
 
 use crate::poly::Polynomial;
 use crate::keys::PublicKey;
-use rand::RngCore;
 
 /// Represents a ciphertext in the BGV scheme.
 #[derive(Debug, Clone)]

@@ -4,7 +4,6 @@ use crate::poly::Polynomial;
 use num::BigUint;
 use rand::rngs::OsRng;
 use rand::Rng;
-use thiserror::Error;
 
 /// Errors that can occur during key generation.
 #[derive(Debug, thiserror::Error)]

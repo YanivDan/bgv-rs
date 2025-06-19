@@ -8,8 +8,6 @@ mod decrypt;
 mod ops;
 
 use poly::Polynomial;
-use encrypt::Ciphertext;
-use crate::keys::KeyGenError;
 
 fn main() {
     // Key generation

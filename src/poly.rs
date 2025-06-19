@@ -3,8 +3,6 @@
 use num::bigint::BigUint;
 use num_bigint::RandBigInt;
 use num_traits::Zero;
-use rand::RngCore;
-use rand::Rng;
 use std::ops::{Add, Mul, Sub};
 use num::ToPrimitive;
 
